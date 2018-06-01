@@ -1,3 +1,4 @@
+# `DyRET`
 <img src="https://i.imgur.com/eRFsYHL.jpg" alt="DyRET" width="300" align="right" />
 
 `DyRET` is a four legged (quadruped) robot designed to be a versatile experiment platform for evolutionary experiments with the unique capability of changing morphology! The robot supports [ROS](https://ros.org) and [Gazebo](http://gazebosim.org/) is supported for simulated experiments.
