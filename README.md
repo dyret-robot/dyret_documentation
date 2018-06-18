@@ -1,5 +1,5 @@
-# `DyRET`
-<img src="http://www.robotikk.net/images/dyret_reconfig.gif" alt="DyRET" width="300" align="right" />
+# Dynamic Robot for Embodied Testing (`DyRET`)
+<img src="http://www.robotikk.net/images/dyret_reconfig.gif" alt="DyRET" width="300" align="right" style="margin: 5px"/>
 
 `DyRET` is a four legged (quadruped) robot designed to be a robust and versatile platform for evolutionary experiments with the unique capability of self-changing morphology. The robot runs on [ROS](https://ros.org), and uses [Gazebo](http://gazebosim.org/) for simulated experiments.
 
@@ -8,7 +8,24 @@ The [wiki](https://github.com/dyret-robot/dyret_documentation/wiki)
 contains all documentation for how to setup and interact with `DyRET`.
 
 ## License
-DyRET is a fully open source project, and both code and design is freely available. All software is available under the [GPL-3](http://www.gnu.org/licenses/gpl.html) license, and the hardware is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. Please keep references to the DyRET project and cite the [fundamental paper](https://arxiv.org/pdf/1803.05629) if used in academic work.
+`DyRET` is a fully open source project, and both code and design is freely available. All software is available under the [GPL-3](http://www.gnu.org/licenses/gpl.html) license, and the hardware is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. Please keep references to the `DyRET` project and cite the [fundamental paper](https://arxiv.org/pdf/1803.05629) if used in academic work. Bibtex reference is provided below:
+
+~~~~~~~~
+@article{1803.05629,
+  author        = {T{\o}nnes F. Nygaard and
+                   Charles P. Martin and
+                   Jim T{\o}rresen and
+                   Kyrre Glette},
+  title         = {Self-Modifying Morphology Experiments with DyRET:
+                   Dynamic Robot for Embodied Testing},
+  journal       = {CoRR},
+  volume        = {abs/1803.05629},
+  year          = {2018},
+  url           = {http://arxiv.org/abs/1803.05629},
+  archivePrefix = {arXiv},
+  eprint        = {1803.05629},
+}
+~~~~~~~~
 
 ## Sub-repositories
 The following packages are all based on [ROS](https://ros.org) and tested with [Kinetic](https://wiki.ros.org/kinetic), [Lunar](https://wiki.ros.org/lunar/) and [Melodic](https://wiki.ros.org/melodic). All documentation is on the common [wiki](https://github.com/dyret-robot/dyret_documentation/wiki), and not in individual repositories.
