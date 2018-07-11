@@ -1,16 +1,18 @@
 # Dynamic Robot for Embodied Testing (`DyRET`)
-<img src="http://www.robotikk.net/images/dyret_reconfig.gif" alt="DyRET" width="300" align="right" style="margin: 5px"/>
+<span><img src="http://robotikk.net/media/images/dyret_reconfig.gif" alt="DyRET" width="300" align="right" style="margin: 5px"/>
 
 `DyRET` is a four legged (quadruped) robot designed to be a robust and versatile platform for evolutionary experiments with the unique capability of self-changing morphology. The robot runs on [ROS](https://ros.org), and uses [Gazebo](http://gazebosim.org/) for simulated experiments.
 
+<a href="http://certificate.oshwa.org/"><img src="http://robotikk.net/media/images/dyret_oshw.png" alt="OSHW" width="180" style="margin: 20px" align="right"/></a>
 ## Documentation
 The [wiki](https://github.com/dyret-robot/dyret_documentation/wiki)
 contains all documentation for how to setup and interact with `DyRET`.
 
 ## License
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)  
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)  
 
-`DyRET` is a fully open source project, and both code and design is freely available. All software is available under the [GPL-3](http://www.gnu.org/licenses/gpl.html) license, and the hardware is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. Please keep references to the `DyRET` project and cite the [fundamental paper](https://arxiv.org/pdf/1803.05629) if used in academic work. Bibtex reference is provided below:
+`DyRET` is a certified open source hardware project, and both code and design is freely available. All software is available under the [GPL-3](http://www.gnu.org/licenses/gpl.html) license, and the hardware is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. Please keep references to the `DyRET` project and cite the [fundamental paper](https://arxiv.org/pdf/1803.05629) if used in academic work. Bibtex reference is provided below:
 
 ~~~~~~~~
 @article{1803.05629,
