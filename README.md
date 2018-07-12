@@ -31,22 +31,6 @@ contains all documentation for how to setup and interact with `DyRET`.
 }
 ~~~~~~~~
 
-## Media
-
-Please visit our [Youtube channel](https://www.youtube.com/playlist?list=PLRBn4we2TECqjgtN5yU7JDioblYnBLBsU) for videos of `DyRET`. Press photos and non-watermarked videos available to journalists and others on request.
-
-[Wired.com](https://www.wired.com/story/how-roboticists-are-copying-nature-to-make-fantastical-machines/), 28. june 2018  
-Video about bio-mimicry including DyRET and other interesting robots.
-
-[Nbcnews.com](https://www.nbcnews.com/mach/video/how-a-shape-shifting-robot-is-learning-from-its-mistakes-1263383619716), 25. june 2018   
-Video showing DyRET and some outdoor experiments.
-
-[Digitaltrends.com](https://www.digitaltrends.com/cool-tech/dyret-robot-learns-to-walk/), 23. may 2018  
-Short interview about the DyRET robot and evolutionary robotics.
-
-[Wired.com](https://www.wired.com/story/the-shape-shifting-robot-that-evolves-by-falling-down/), 18. may 2018  
-Interview about the DyRET robot and our work at the University.
-
 ## Sub-repositories
 The following packages are all based on [ROS](https://ros.org) and tested with [Kinetic](https://wiki.ros.org/kinetic), [Lunar](https://wiki.ros.org/lunar/) and [Melodic](https://wiki.ros.org/melodic). All documentation is on the common [wiki](https://github.com/dyret-robot/dyret_documentation/wiki), and not in individual repositories.
 
@@ -66,12 +50,29 @@ The following packages are all based on [ROS](https://ros.org) and tested with [
 
 The CAD design is currently available as a [zip-download](http://robotikk.net/sources/cad.zip), but future versions will be converted to a version-controlled release.
 
+## Media
+
+Please visit our [Youtube channel](https://www.youtube.com/playlist?list=PLRBn4we2TECqjgtN5yU7JDioblYnBLBsU) for videos of `DyRET`. Press photos and non-watermarked videos available to journalists and others on request.
+
+[Wired.com](https://www.wired.com/story/how-roboticists-are-copying-nature-to-make-fantastical-machines/), 28. june 2018  
+Video about bio-mimicry including DyRET and other interesting robots.
+
+[Nbcnews.com](https://www.nbcnews.com/mach/video/how-a-shape-shifting-robot-is-learning-from-its-mistakes-1263383619716), 25. june 2018   
+Video showing DyRET and some outdoor experiments.
+
+[Digitaltrends.com](https://www.digitaltrends.com/cool-tech/dyret-robot-learns-to-walk/), 23. may 2018  
+Short interview about the DyRET robot and evolutionary robotics.
+
+[Wired.com](https://www.wired.com/story/the-shape-shifting-robot-that-evolves-by-falling-down/), 18. may 2018  
+Interview about the DyRET robot and our work at the University.
+
 ## Papers
 Papers that describe or utilize `DyRET` for experiments. The list is chronological and important papers are highlighted.
 
-- [Multi-objective Evolution of Fast and Stable Gaits on a Physical Quadruped Robotic Platform](http://heim.ifi.uio.no/kyrrehg/pubs/nygaard-ices2016.pdf)
+- [Multi-objective Evolution of Fast and Stable Gaits on a Physical Quadruped Robotic Platform](http://robotikk.net/pdf/papers/tonnesfn_ICES16.pdf)
 - [Combining MAP-Elites and Incremental Evolution to Generate Gaits for a Mammalian Quadruped Robot](https://link.springer.com/chapter/10.1007/978-3-319-77538-8_48)
 - [**Self-Modifying Morphology Experiments with DyRET: Dynamic Robot for Embodied Testing**](https://arxiv.org/pdf/1803.05629)
+- [Real-World Evolution Adapts Robot Morphology and Control to Hardware Limitations](http://robotikk.net/pdf/papers/tonnesfn_GECCO18.pdf)
 
 ## Contact us
 If you have suggestions or questions on the documentation or use of the robot, please create an issue on Github so answers and solutions can be shared with others.
