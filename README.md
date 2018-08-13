@@ -73,6 +73,7 @@ Papers that describe or utilize `DyRET` for experiments. The list is chronologic
 - [Combining MAP-Elites and Incremental Evolution to Generate Gaits for a Mammalian Quadruped Robot](https://link.springer.com/chapter/10.1007/978-3-319-77538-8_48)
 - [**Self-Modifying Morphology Experiments with DyRET: Dynamic Robot for Embodied Testing**](https://arxiv.org/pdf/1803.05629)
 - [Real-World Evolution Adapts Robot Morphology and Control to Hardware Limitations](http://robotikk.net/pdf/papers/tonnesfn_GECCO18.pdf)
+- [Dynamic mutation in MAP-Elites for robotic repertoire generation](https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00110)
 
 ## Contact us
 If you have suggestions or questions on the documentation or use of the robot, please create an issue on Github so answers and solutions can be shared with others.
