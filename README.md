@@ -15,19 +15,18 @@ contains all documentation for how to setup and interact with `DyRET`.
 `DyRET` is a certified open source hardware project, and both code and design is freely available. All software is available under the [GPL-3](http://www.gnu.org/licenses/gpl.html) license, and the hardware is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. Please keep references to the `DyRET` project and cite the [fundamental paper](https://arxiv.org/pdf/1803.05629) if used in academic work. Bibtex reference is provided below:
 
 ~~~~~~~~
-@article{1803.05629,
+@inproceedings{nygaard_ICRA19,
   author        = {T{\o}nnes F. Nygaard and
                    Charles P. Martin and
-                   Jim T{\o}rresen and
+                   Jim Torresen and
                    Kyrre Glette},
-  title         = {Self-Modifying Morphology Experiments with DyRET:
-                   Dynamic Robot for Embodied Testing},
-  journal       = {CoRR},
-  volume        = {abs/1803.05629},
-  year          = {2018},
-  url           = {http://arxiv.org/abs/1803.05629},
-  archivePrefix = {arXiv},
-  eprint        = {1803.05629},
+  title         = {{Self-Modifying Morphology Experiments with DyRET:
+                   Dynamic Robot for Embodied Testing}},
+  booktitle     = {{IEEE International Conference on Robotics and Automation (ICRA)}},
+  year          = {2019},
+  volume        = {},
+  number        = {},
+  pages         = {}
 }
 ~~~~~~~~
 
@@ -52,7 +51,11 @@ The CAD design is currently available as a [zip-download](http://robotikk.net/so
 
 ## Media
 
-Please visit our [Youtube channel](https://www.youtube.com/playlist?list=PLRBn4we2TECqjgtN5yU7JDioblYnBLBsU) for videos of `DyRET`. Press photos and non-watermarked videos available to journalists and others on request.
+Please visit our [Youtube channel](https://www.youtube.com/playlist?list=PLRBn4we2TECqjgtN5yU7JDioblYnBLBsU) for videos of `DyRET`.
+Press photos and non-watermarked videos available to journalists and others on request.
+
+[Techxplore.com](https://techxplore.com/news/2019-04-method-enable-robust-locomotion-quadruped.html), 16. april 2019  
+Interview about our work integrating foot sensors on `DyRET`.
 
 [Wired.com](https://www.wired.com/story/how-roboticists-are-copying-nature-to-make-fantastical-machines/), 28. june 2018  
 Video about bio-mimicry including DyRET and other interesting robots.
@@ -67,13 +70,16 @@ Short interview about the DyRET robot and evolutionary robotics.
 Interview about the DyRET robot and our work at the University.
 
 ## Papers
-Papers that describe or utilize `DyRET` for experiments. The list is chronological and important papers are highlighted.
+Papers that describe or utilize `DyRET` for experiments. The list is reverse chronological order, and the platform paper is highlighted.
 
-- [Multi-objective Evolution of Fast and Stable Gaits on a Physical Quadruped Robotic Platform](http://robotikk.net/pdf/papers/tonnesfn_ICES16.pdf)
-- [Combining MAP-Elites and Incremental Evolution to Generate Gaits for a Mammalian Quadruped Robot](https://link.springer.com/chapter/10.1007/978-3-319-77538-8_48)
-- [**Self-Modifying Morphology Experiments with DyRET: Dynamic Robot for Embodied Testing**](https://arxiv.org/pdf/1803.05629)
-- [Real-World Evolution Adapts Robot Morphology and Control to Hardware Limitations](http://robotikk.net/pdf/papers/tonnesfn_GECCO18.pdf)
-- [Dynamic mutation in MAP-Elites for robotic repertoire generation](https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00110)
+- [Evolved embodied phase coordination enables robust quadruped robot locomotion (to appear in GECCO 2019)](https://folk.uio.no/jorgehn/tegotae/)
+- [**Self-Modifying Morphology Experiments with DyRET: Dynamic Robot for Embodied Testing (to appear in ICRA 2019)**](https://arxiv.org/pdf/1803.05629)
+- [Evolving Robots on Easy Mode: Towards a Variable Complexity Controller for Quadrupeds (EvoStar 2019)](https://www.springerprofessional.de/en/evolving-robots-on-easy-mode-towards-a-variable-complexity-contr/16644622)
+- [Dynamic mutation in MAP-Elites for robotic repertoire generation (ALIFE 2018)](https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00110)
+- [Real-World Evolution Adapts Robot Morphology and Control to Hardware Limitations (GECCO 2018)](https://dl.acm.org/citation.cfm?id=3205567)
+- [Combining MAP-Elites and Incremental Evolution to Generate Gaits for a Mammalian Quadruped Robot (EvoStar 2018)](https://link.springer.com/chapter/10.1007/978-3-319-77538-8_48)
+- [Multi-objective Evolution of Fast and Stable Gaits on a Physical Quadruped Robotic Platform (ICES 2016)](https://ieeexplore.ieee.org/document/7850167/)
+
 
 ## Contact us
 If you have suggestions or questions on the documentation or use of the robot, please create an issue on Github so answers and solutions can be shared with others.
